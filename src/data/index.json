@@ -1,0 +1,90 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/tag-1.png",
+      "title": "Front-End",
+      "description": "I create visually appealing and user-friendly interfaces that bring designs to life. With a focus on responsive and interactive elements, I ensure seamless user experiences across devices."
+    },
+    {
+      "id": "2",
+      "src": "./img/feather-pen-2.png",
+      "title": "Back-End",
+      "description": "I develop robust and scalable server-side solutions that power the functionality behind the scenes. From managing databases to setting up secure APIs, I build the backbone that ensures smooth data flow and reliable performance."
+    },
+    {
+ 
+      "id": "3",
+      "src": "./img/feather-pen-1.png",
+      "title": "Bug Fixing & Optimization",
+      "description": "Skilled in identifying and resolving bugs quickly to ensure smooth functionality. I also focus on optimizing code and improving performance for a seamless user experience."
+    },
+    {
+      "id": "4",
+      "src": "./img/bug.png",
+      "title": "Responsive Design",
+      "description": "Dedicated to creating responsive designs that adapt to any screen size, providing a consistent user experience across mobile, tablet, and desktop devices."
+    },
+    {
+      "id": "5",
+      "src": "./img/secu.png",
+      "title": "Security & Best Practices",
+      "description": " Committed to implementing security best practices to protect applications from vulnerabilities. From secure authentication to data encryption, I prioritize safety and reliability in every project."
+    },
+    {
+      "id": "6",
+      "src": "./img/skills.png",
+      "title": "Skills & Expertise",
+      "description": "Proficient in a wide range of technologies, including WordPress, HTML, CSS, JavaScript, Node.js, jQuery, React, Git, MongoDB, and more. Experienced in setting up domain and hosting services to bring projects online seamlessly."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/snake.png",
+      "title": "Classic Snake Game",
+      "description": "This is a modern take on the classic Snake game, built using HTML, CSS, and JavaScript. In this project, players control a snake that grows longer each time it eats food. The challenge increases as the snake grows, testing players' reflexes and strategic thinking to avoid colliding with the walls or itself. With a simple design and intuitive controls, this game is an engaging example of how fundamental web technologies can bring nostalgic games to life.",
+      "link": "https://ashwin-z.github.io/Snake-Game/"
+    },
+    {
+      "id": "2",
+      "src": "./img/tes.png",
+      "title": "Sowl Coin White Paper Website",
+      "description": "This website presents the official white paper for Sowl Coin, a unique cryptocurrency project, providing an in-depth overview of its purpose, technology, and roadmap. Built with a modern tech stack including React, Node.js, and MongoDB, the site is designed for a seamless user experience and easy access to critical information. The platform showcases interactive elements and a clean design, enabling investors and enthusiasts to explore Sowl Coin’s vision, tokenomics, and future plans in an engaging format.",
+      "link": "https://sowlcoin.com"
+    },
+    {
+      "id": "3",
+      "src": "./img/dea.png",
+      "title": "Runner Hunter Games",
+      "description": "An immersive 3D endless runner game created using HTML, CSS, and Three.js, Runner Hunter combines fast-paced action with visually engaging graphics. Players navigate a character through a dynamically generated environment, dodging obstacles and collecting rewards to score points. This project leverages Three.js to bring realistic 3D graphics and animations to the browser, creating an exciting and interactive gaming experience. The game demonstrates the potential of web technologies for creating visually stunning and responsive gameplay directly within the browser.",
+      "link": "https://ashwin-z.github.io/Runner/"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/yt.png",
+      "description": "“Ashwin helped elevate my business with a stunning, user-friendly website that’s optimized for our target audience. He took the time to understand our goals and provided invaluable insights to make our online presence stronger. I’m thrilled with the results and grateful for his expertise! Thank You”",
+      "author_name": "David L.",
+      "author_designation": "Small Business Owner"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/yt.png",
+      "description": "“Ashwin brought my vision to life with an incredible sense of creativity and technical skill. From start to finish, he maintained clear communication and delivered a website that not only looks great but performs exceptionally well. His dedication to client satisfaction is unparalleled! Best Rgard Emily”",
+      "author_name": "Emily R.",
+      "author_designation": "Digital Marketer"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/yt.png",
+      "description": "“Working with Ashwin was an absolute pleasure. His attention to detail and ability to transform ideas into high-quality web projects are truly impressive. The seamless functionality and smooth user experience he delivered went beyond my expectations. I would highly recommend Ashwin for any web development needs!”",
+      "author_name": "Josh",
+      "author_designation": "Web Developer"
+    }
+  ]
+}
