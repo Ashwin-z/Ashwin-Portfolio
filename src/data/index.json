@@ -3,39 +3,38 @@
     {
       "id": "1",
       "src": "./img/tag-1.png",
-      "title": "Front-End",
-      "description": "I create visually appealing and user-friendly interfaces that bring designs to life. With a focus on responsive and interactive elements, I ensure seamless user experiences across devices."
+      "title": "Front-End Development",
+      "description": "Crafting stunning, responsive user interfaces using React, HTML5, CSS3, Tailwind CSS, and Bootstrap. I bring pixel-perfect designs to life with smooth animations and seamless interactions across all devices."
     },
     {
       "id": "2",
       "src": "./img/feather-pen-2.png",
-      "title": "Back-End",
-      "description": "I develop robust and scalable server-side solutions that power the functionality behind the scenes. From managing databases to setting up secure APIs, I build the backbone that ensures smooth data flow and reliable performance."
+      "title": "Back-End Development",
+      "description": "Building scalable server-side architectures with Node.js, Express, Python, and Flask. I design secure RESTful APIs, manage databases with MongoDB and SQL, and ensure fast, reliable performance."
     },
     {
- 
       "id": "3",
       "src": "./img/feather-pen-1.png",
-      "title": "Bug Fixing & Optimization",
-      "description": "Skilled in identifying and resolving bugs quickly to ensure smooth functionality. I also focus on optimizing code and improving performance for a seamless user experience."
+      "title": "Mobile App Development",
+      "description": "Developing cross-platform mobile applications with React Native. From concept to deployment on iOS and Android, I build fast, native-feeling apps with beautiful UIs and smooth user experiences."
     },
     {
       "id": "4",
       "src": "./img/bug.png",
-      "title": "Responsive Design",
-      "description": "Dedicated to creating responsive designs that adapt to any screen size, providing a consistent user experience across mobile, tablet, and desktop devices."
+      "title": "Bug Fixing & Optimization",
+      "description": "Expert at identifying and resolving complex bugs efficiently. I optimize code performance, reduce load times, and implement best practices to deliver blazing-fast applications."
     },
     {
       "id": "5",
       "src": "./img/secu.png",
       "title": "Security & Best Practices",
-      "description": " Committed to implementing security best practices to protect applications from vulnerabilities. From secure authentication to data encryption, I prioritize safety and reliability in every project."
+      "description": "Implementing industry-standard security practices including secure authentication, data encryption, input validation, and protection against common vulnerabilities like XSS and SQL injection."
     },
     {
       "id": "6",
       "src": "./img/skills.png",
-      "title": "Skills & Expertise",
-      "description": "Proficient in a wide range of technologies, including WordPress, HTML, CSS, JavaScript, Node.js, jQuery, React, Git, MongoDB, and more. Experienced in setting up domain and hosting services to bring projects online seamlessly."
+      "title": "Full Stack Architecture",
+      "description": "Designing end-to-end application architectures from database schemas to frontend components. Experienced with Git version control, CI/CD pipelines, deployment, and agile development workflows."
     }
   ],
   "portfolio": [
@@ -43,22 +42,50 @@
       "id": "1",
       "src": "./img/snake.png",
       "title": "Classic Snake Game",
-      "description": "This is a modern take on the classic Snake game, built using HTML, CSS, and JavaScript. In this project, players control a snake that grows longer each time it eats food. The challenge increases as the snake grows, testing players' reflexes and strategic thinking to avoid colliding with the walls or itself. With a simple design and intuitive controls, this game is an engaging example of how fundamental web technologies can bring nostalgic games to life.",
+      "description": "A modern take on the classic Snake game built with HTML, CSS, and JavaScript. Players control a growing snake, testing reflexes and strategy in this engaging browser-based game.",
       "link": "https://ashwin-z.github.io/Snake-Game/"
     },
     {
       "id": "2",
       "src": "./img/tes.png",
-      "title": "Sowl Coin White Paper Website",
-      "description": "This website presents the official white paper for Sowl Coin, a unique cryptocurrency project, providing an in-depth overview of its purpose, technology, and roadmap. Built with a modern tech stack including React, Node.js, and MongoDB, the site is designed for a seamless user experience and easy access to critical information. The platform showcases interactive elements and a clean design, enabling investors and enthusiasts to explore Sowl Coin’s vision, tokenomics, and future plans in an engaging format.",
+      "title": "Sowl Coin White Paper",
+      "description": "Official white paper website for Sowl Coin cryptocurrency. Built with React, Node.js, and MongoDB — featuring interactive elements, clean design, and comprehensive tokenomics information.",
       "link": "https://sowlcoin.com"
     },
     {
       "id": "3",
       "src": "./img/dea.png",
-      "title": "Runner Hunter Games",
-      "description": "An immersive 3D endless runner game created using HTML, CSS, and Three.js, Runner Hunter combines fast-paced action with visually engaging graphics. Players navigate a character through a dynamically generated environment, dodging obstacles and collecting rewards to score points. This project leverages Three.js to bring realistic 3D graphics and animations to the browser, creating an exciting and interactive gaming experience. The game demonstrates the potential of web technologies for creating visually stunning and responsive gameplay directly within the browser.",
+      "title": "Runner Hunter 3D Game",
+      "description": "An immersive 3D endless runner game built with Three.js. Navigate through dynamically generated environments, dodge obstacles, and collect rewards in this visually stunning browser game.",
       "link": "https://ashwin-z.github.io/Runner/"
+    },
+    {
+      "id": "4",
+      "src": "./img/savereelify.svg",
+      "title": "SaveReelify — Insta Downloader",
+      "description": "A powerful Instagram content downloader web app that lets users save reels, posts, and stories effortlessly. Built with a clean UI, fast downloads, and support for multiple media formats.",
+      "link": "https://github.com/Ashwin-z/savereelify.com"
+    },
+    {
+      "id": "5",
+      "src": "./img/y2dpro.svg",
+      "title": "Y2DPro — YouTube Downloader",
+      "description": "A feature-rich YouTube video downloader web app supporting multiple resolutions and audio formats. Simple paste-and-download interface with real-time progress tracking and batch download support.",
+      "link": "https://github.com/Ashwin-z/y2dpro"
+    },
+    {
+      "id": "6",
+      "src": "./img/car-tracker.svg",
+      "title": "Car Tracker — Vehicle Monitoring",
+      "description": "A real-time car tracking mobile app built with React Native. Monitor vehicle location, speed, over-speeding alerts, battery health, and trip history — all from a sleek, interactive dashboard.",
+      "link": "https://github.com/Ashwin-z/tracking-app"
+    },
+    {
+      "id": "7",
+      "src": "./img/social-app.svg",
+      "title": "SocialSphere — Social Media App",
+      "description": "A full-featured social media platform where users can upload content, follow others, like, comment, and share posts. Instagram & Facebook-inspired UI with real-time notifications and messaging.",
+      "link": "https://github.com/Ashwin-z/tracking-app"
     }
   ],
   "testimonial": [
@@ -66,7 +93,7 @@
       "id": "1",
       "count": "5",
       "src": "./img/yt.png",
-      "description": "“Ashwin helped elevate my business with a stunning, user-friendly website that’s optimized for our target audience. He took the time to understand our goals and provided invaluable insights to make our online presence stronger. I’m thrilled with the results and grateful for his expertise! Thank You”",
+      "description": "\"Ashwin helped elevate my business with a stunning, user-friendly website optimized for our target audience. He took the time to understand our goals and provided invaluable insights to strengthen our online presence. Thrilled with the results!\"",
       "author_name": "David L.",
       "author_designation": "Small Business Owner"
     },
@@ -74,7 +101,7 @@
       "id": "2",
       "count": "5",
       "src": "./img/yt.png",
-      "description": "“Ashwin brought my vision to life with an incredible sense of creativity and technical skill. From start to finish, he maintained clear communication and delivered a website that not only looks great but performs exceptionally well. His dedication to client satisfaction is unparalleled! Best Rgard Emily”",
+      "description": "\"Ashwin brought my vision to life with incredible creativity and technical skill. From start to finish, he maintained clear communication and delivered a website that not only looks great but performs exceptionally well. His dedication is unparalleled!\"",
       "author_name": "Emily R.",
       "author_designation": "Digital Marketer"
     },
@@ -82,9 +109,33 @@
       "id": "3",
       "count": "5",
       "src": "./img/yt.png",
-      "description": "“Working with Ashwin was an absolute pleasure. His attention to detail and ability to transform ideas into high-quality web projects are truly impressive. The seamless functionality and smooth user experience he delivered went beyond my expectations. I would highly recommend Ashwin for any web development needs!”",
+      "description": "\"Working with Ashwin was an absolute pleasure. His attention to detail and ability to transform ideas into high-quality web and mobile projects are truly impressive. The seamless functionality went beyond my expectations. Highly recommended!\"",
       "author_name": "Josh",
       "author_designation": "Web Developer"
+    },
+    {
+      "id": "4",
+      "count": "5",
+      "src": "./img/yt.png",
+      "description": "\"Ashwin built a fantastic mobile app for our startup. The UI was sleek, performance was smooth, and he delivered ahead of schedule. His understanding of React Native and backend integration is top-notch. Would definitely work with him again!\"",
+      "author_name": "Sarah K.",
+      "author_designation": "Startup Founder"
+    },
+    {
+      "id": "5",
+      "count": "5",
+      "src": "./img/yt.png",
+      "description": "\"I hired Ashwin on Fiverr for a complex e-commerce project and he absolutely nailed it. Fast communication, clean code, and he even suggested improvements I hadn't thought of. Five stars all the way — a true professional!\"",
+      "author_name": "Marcus T.",
+      "author_designation": "E-Commerce Entrepreneur"
+    },
+    {
+      "id": "6",
+      "count": "5",
+      "src": "./img/yt.png",
+      "description": "\"Ashwin redesigned our entire web platform and the results speak for themselves — 40% increase in user engagement. He has an exceptional eye for modern design trends and knows how to translate them into functional, performant code.\"",
+      "author_name": "Priya S.",
+      "author_designation": "Product Manager"
     }
   ]
 }

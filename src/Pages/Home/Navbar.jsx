@@ -14,28 +14,20 @@ function Navbar() {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 500) {
-        closeMenu;
+      if (window.innerWidth <= 1200) {
+        closeMenu();
       }
     };
-
     window.addEventListener("resize", handleResize);
-
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
 
-  useEffect(() => {
-    if (window.innerWidth <= 1200) {
-      closeMenu;
-    }
-  }, []);
-
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img id="lod" src="./img/lom.png" />
+        <img id="lod" src="./img/lom.png" alt="Logo" className="navbar--logo" />
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -69,6 +61,20 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
+              to="techStack"
+              className="navbar--content"
+            >
+              Tech Stack
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
               to="MyPortfolio"
               className="navbar--content"
             >
@@ -87,6 +93,34 @@ function Navbar() {
               className="navbar--content"
             >
               About Me
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="experience"
+              className="navbar--content"
+            >
+              Experience
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="education"
+              className="navbar--content"
+            >
+              Education
             </Link>
           </li>
           <li>
