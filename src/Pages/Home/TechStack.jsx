@@ -7,6 +7,7 @@ import {
   FaHtml5,
   FaBootstrap,
   FaGitAlt,
+  FaAws,
 } from "react-icons/fa";
 import {
   SiFlask,
@@ -15,6 +16,12 @@ import {
   SiJavascript,
   SiMysql,
   SiExpress,
+  SiPostgresql,
+  SiDjango,
+  SiDocker,
+  SiEjs,
+  SiJquery,
+  SiTypescript,
 } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 
@@ -28,6 +35,13 @@ const techStack = [
   { name: "Flask", icon: SiFlask, color: "#ffffff" },
   { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
   { name: "SQL", icon: SiMysql, color: "#4479A1" },
+  { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1" },
+  { name: "Django", icon: SiDjango, color: "#44B78B" },
+  { name: "DevOps", icon: SiDocker, color: "#2496ED" },
+  { name: "AWS", icon: FaAws, color: "#FF9900" },
+  { name: "EJS", icon: SiEjs, color: "#B4CA65" },
+  { name: "jQuery", icon: SiJquery, color: "#0769AD" },
+  { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
   { name: "HTML5", icon: FaHtml5, color: "#E34F26" },
   { name: "CSS3", icon: FaCss3Alt, color: "#1572B6" },
   { name: "Tailwind", icon: SiTailwindcss, color: "#06B6D4" },

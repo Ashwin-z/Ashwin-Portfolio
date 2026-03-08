@@ -6,10 +6,12 @@ import Home from "./Pages/Home/Homescreen";
 import CustomCursor from "./Pages/Home/CustomCursor";
 import ScrollProgress from "./Pages/Home/ScrollProgress";
 import { BackToTop } from "./Pages/Home/ScrollProgress";
+import Preloader from "./Pages/Home/Preloader";
 
 function App() {
   return (
     <div className="App">
+      <Preloader />
       <CustomCursor />
       <Router>
         <div>
